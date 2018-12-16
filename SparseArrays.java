@@ -33,6 +33,7 @@ public class SparseArrays {
 	               
 	            }
 	            index++;
+		//after each iteration make counter=0 to count for new element
 	            counter=0;
 	        }
 	        return occurrence;
